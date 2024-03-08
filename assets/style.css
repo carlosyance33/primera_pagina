@@ -1,0 +1,29 @@
+* {
+    color: brown;
+    font-size: 1.1rem ;
+    font-weight: 400;
+    font-family: lanteros, "Roboto", sans-serif;
+
+}
+
+@font-face {
+    font-family: lanteros ;
+    src: url("/assets/fonts/LanterosySansSerifFont.ttf");
+}
+
+/*
+Algunas medidas utilizadas
+FIJAS
+
+pixeles px
+puntos pt
+
+EM em
+REM  rem         1rem = 16 px
+
+RESPONSIVAS
+
+porcentuales %
+referencias de viewport   vw vh
+
+*/
