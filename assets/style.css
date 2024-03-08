@@ -1,8 +1,19 @@
 * {
+    
+    /* la propiedad mas importante del seteo de estilos   */
+
+    box-sizing: border-box;
     color: brown;
     font-size: 1.1rem ;
     font-weight: 400;
     font-family: lanteros, "Roboto", sans-serif;
+    text-decoration: none;
+    list-style: none;
+    width: 300px;
+
+    padding: 0;
+    margin: 0;
+    outline: none;
 
 }
 
@@ -10,6 +21,11 @@
     font-family: lanteros ;
     src: url("/assets/fonts/LanterosySansSerifFont.ttf");
 }
+
+/* a partir de aqui comienzan los selectores por etiqueta, las etiquetas tienen mayor especifidad
+
+
+*/
 
 /*
 Algunas medidas utilizadas
@@ -27,3 +43,20 @@ porcentuales %
 referencias de viewport   vw vh
 
 */
+
+body {
+     color: #f2f2f2;
+     background-color: #2e2e2e;
+     background-image: linear-gradient(0deg, #a31212, #c38787);
+     background-image: radial-gradient( circle, #d2a9a9,#213fd4);
+     background-image: url("/link de la imagen");
+     background-size: 100%;
+     background-repeat: repeat-y;
+
+}
+
+img {
+    width: 100%;
+    /* cuando trabaje con elementos, que no sean texto voy a priorizar medidas reponsivas 
+    width: 100%; */
+}
